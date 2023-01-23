@@ -1,7 +1,7 @@
 # Eureka and Addons
 Eureka server and API gateway for microservices
 
-These were the part of the project but later removed from the dependencies to keep the things in control.
+These were the part of the project but later removed from the dependencies to keep the things in control and maintain focus on the main assignment.
 
 > # Following can be added anytime
 - Eureka Server
@@ -11,29 +11,10 @@ These were the part of the project but later removed from the dependencies to ke
 - Actuator end points
 
 > # Few removed dependencies that can be added
+- spring-boot-starter-oauth2-client
+- log4j-api
+- log4j-core
+- spring-boot-starter-actuator
+- spring-boot-starter-security
 
-<dependency>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-oauth2-client</artifactId>
-</dependency>
-
-<dependency>
-    <groupId>org.apache.logging.log4j</groupId>
-    <artifactId>log4j-api</artifactId>
-    <version>2.11.2</version>
-</dependency>
-
-<dependency>
-    <groupId>org.apache.logging.log4j</groupId>
-    <artifactId>log4j-core</artifactId>
-    <version>2.11.2</version>
-</dependency>
-
-<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-</dependency>
-<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-</dependency>
+**Developed by Praffull Manekar**
